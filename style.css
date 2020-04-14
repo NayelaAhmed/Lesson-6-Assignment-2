@@ -1,0 +1,169 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+  height: 100%;
+
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+header{
+  background-color: #2b9bb9;
+  color: white;
+  padding: 0 10%;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header h2.subtitle {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14pt;
+    width: 250px;
+}
+
+
+.topnav{
+
+  background-color: #ececec;
+  padding: 20px 10%;
+  font-size: 10pt;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+
+
+.topnav a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+.topnav a:nth-child(even) {
+  color: green;
+}
+
+footer nav a:nth-child(odd) {
+  font-weight: bold;
+}
+
+
+main {
+  flex-grow: 1;
+  flex-direction: row;
+  display: flex;
+  padding: 20px 10%;
+}
+
+main a {
+  color:#2b9bb9;
+  text-decoration: none;
+}
+
+main h3 {
+  text-transform: uppercase;
+
+}
+
+main section h5 {
+  color: #2b9bb9;
+}
+
+main section h5 .author {
+  font-style: italic;
+  display: block;
+}
+
+
+
+main section {
+  display:block;
+  flex-grow: 1;
+  margin-right: 45px;
+}
+
+main section h4 {
+  color: #2b9bb9;
+  line-height: 25px;
+
+}
+
+main p, main figcaption {
+    line-height: 25px;
+}
+
+
+
+main aside {
+  width: 300px;
+  min-width: 300px;
+}
+
+main aside a {
+transition: color 4s;
+}
+
+main aside a:hover {
+  color: purple;
+}
+
+main aside a::after {
+  content:">>";
+}
+
+main aside figure {
+  margin: 0;
+  padding: 0;
+}
+
+main aside figcaption {
+  margin-bottom: 20px;
+}
+
+footer {
+    background-color: #393939;
+    padding: 30px 0;
+    font-size: 11pt;
+}
+
+footer img {
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+.footernav{
+  text-align: center;
+
+  word-spacing: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.footernav a{
+  color: white;
+  text-decoration: none;
+
+}
